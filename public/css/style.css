@@ -1,0 +1,177 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,700&display=swap');
+@import "./navbar.css";
+@import "./footer.css";
+@import "./animation.css";
+@import "./about-img.css";
+@import "./arthmanthan.css";
+
+
+@font-face {
+  font-family: 'Montserrat' ;
+  src: url(../fonts/static/Montserrat-Regular.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background-color: #172026;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+  text-decoration: none !important;
+  color: inherit;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 10%;
+}
+
+@media (max-width: 950px) {
+  h1 {
+    text-align: left !important;
+    font-size: 2rem;
+  }
+}
+
+@media (min-width: 400px) and (max-width: 900px) {
+ h1 {
+    font-size: 2.5rem;
+  }
+
+}
+
+/* <!---------------- Banner ----------------> */
+
+
+.banner-section {
+  height: 100vh;
+}
+
+  
+.navigation {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.navigation .nav-link {
+  color: #fff;
+  font-weight: 500;
+}
+
+.navbar .container-fluid .collapse .navbar-nav ul li {
+  list-style: none;
+  color: red;
+}
+
+.navbar .container-fluid .collapse ul li .d-flex {
+  justify-content: right;
+}
+
+
+/* <!---------------- ABOUT ----------------> */
+
+.about-section {
+  position: relative;
+}
+
+
+@media (max-width:500px) {
+  .about-section p {
+    font-size: 0.8rem;
+  }
+}
+
+/* <!---------------- ACE OF SPADE ----------------> */
+.ace-section {
+  margin-top: 0;
+  color: #FFF89A;
+  background-color: #172026;
+  background-image: url("../img/landing-page/ace.jpg");
+  background-size: cover;
+}
+
+.ace-section h1.text-center {
+  font-size: 4rem;
+  padding-top: 1em;
+  text-shadow: 1px 1px 2px yellow, 0 0 1em #172026, 0 0 0.2em red;
+}
+
+@media (max-width:768px) {
+  .ace-section h1.text-center {
+    font-size: 3rem;
+  }
+}
+
+.ace-section h1:last-child {
+  text-shadow: 1px 1px 2px yellow, 0 0 1em #172026, 0 0 0.2em red;
+}
+
+.ace-section p {
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-align:justify;
+  text-shadow: 1px 1px 2px yellow, 0 0 1em #172026, 0 0 0.2em red;
+
+}
+
+.ace-section button {
+  margin-bottom: 1em;
+}
+
+/* <!---------------- DOCUMENTARY ----------------> */
+ .documentary-section {
+    background-color: #172026;
+    background-image: url("../img/landing-page/documentary.jpg");
+    background-size: cover;
+  }
+  
+  .documentary-section .row {
+    margin: 0;
+  }
+
+  .documentary-section h1.text-center {
+    color: #f8f8f8;
+    font-size: 4rem;
+    padding-top: 1em;
+    margin: 1em;
+    text-shadow: 1px 1px 2px #fff, 0 0 1em #172026, 0 0 0.2em #172026;
+  }
+  
+  .documentary-section h1:last-child {
+    color: black;
+    text-shadow: 1px 1px 2px #fff, 0 0 1em #fff, 0 0 0.2em #172026;
+  }
+  
+
+  @media (max-width:768px) {
+    .documentary-section h1.text-center {
+      font-size: 2.5rem;
+    }
+  }
+  .documentary-section p {
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-align:justify;
+    color: #f8f8f8;
+    text-shadow: 1px 1px 2px #000, 0 0 0em #000, 0 0 0.5em #000;  
+  }
+  
+  .documentary-section button {
+    margin-bottom: 1em;
+  }
+ 
+/* <!---------------- FOOTER ----------------> */
+
+/* CSS Document */
