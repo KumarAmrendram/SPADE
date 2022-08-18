@@ -79,6 +79,12 @@ h1 {
   justify-content: right;
 }
 
+@media (max-width: 760px){
+  .navigation .nav-link  span{
+      display: none;
+  }
+ 
+ }
 
 /* <!---------------- ABOUT ----------------> */
 
