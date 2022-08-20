@@ -47,11 +47,6 @@
     font-size: 1.4rem;
     margin: 0 10px ;
 }
-
-.navbar .container-fluid .collapse .navbar-nav .nav-link:hover {
-    color: #F18806 !important;
-}
-
 .navbar .container-fluid .collapse ul li {
    text-align: right;
    justify-content: right;
