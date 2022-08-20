@@ -64,7 +64,9 @@ a, a:hover, a:focus, a:active {
   margin: 0%;
 }
 
-.quick_links li {
+.quick_links li a {
+  font-size: 0.9rem;
+  font-weight: 700;
 }
 
 .quick_links li:hover {

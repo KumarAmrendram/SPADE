@@ -101,7 +101,7 @@ h1 {
 /* <!---------------- ACE OF SPADE ----------------> */
 .ace-section {
   margin-top: 0;
-  color: #FFF89A;
+  color: #f8f8f8;
   background-color: #172026;
   background-image: url("../img/landing-page/ace.jpg");
   background-size: cover;
@@ -110,7 +110,7 @@ h1 {
 .ace-section h1.text-center {
   font-size: 4rem;
   padding-top: 1em;
-  text-shadow: 1px 1px 2px yellow, 0 0 1em #172026, 0 0 0.2em red;
+  text-shadow: 1px 1px 2px #172026, 0 0 1em #172026, 0 0 0.2em black;
 }
 
 @media (max-width:768px) {
@@ -120,14 +120,14 @@ h1 {
 }
 
 .ace-section h1:last-child {
-  text-shadow: 1px 1px 2px yellow, 0 0 1em #172026, 0 0 0.2em red;
+  text-shadow: 1px 1px 2px #172026, 0 0 1em #172026, 0 0 0.2em black;
 }
 
 .ace-section p {
   font-size: 1.2rem;
   font-weight: 600;
   text-align:justify;
-  text-shadow: 1px 1px 2px yellow, 0 0 1em #172026, 0 0 0.2em red;
+  text-shadow: 1px 1px 2px #172026, 0 0 1em #172026, 0 0 0.2em black;
 
 }
 
