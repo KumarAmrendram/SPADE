@@ -82,8 +82,9 @@ h1 {
 }
 
 .navigation .nav-link {
-  color: #fff !important;
-  font-weight: 500;
+  color: #fff;
+  font-weight: 400;
+  text-shadow: 1px 1px 2px #fff, 0 0 1em #172026, 0 0 0.2em black;
 }
 
 .navbar .container-fluid .collapse .navbar-nav ul li {
@@ -107,6 +108,10 @@ h1 {
   }
 }
 
+.about-section h1 {
+  text-shadow: 1px 1px 2px #fff, 0 0 1em #172026, 0 0 0.2em black;
+}
+
 /* <!---------------- ACE OF SPADE ----------------> */
 .ace-section {
   margin-top: 0;
@@ -125,6 +130,7 @@ h1 {
 @media (max-width: 768px) {
   .ace-section h1.text-center {
     font-size: 3rem;
+    text-align: left !important;
   }
 }
 
@@ -169,7 +175,9 @@ h1 {
 
 @media (max-width: 768px) {
   .documentary-section h1.text-center {
-    font-size: 2.5rem;
+    left: 0 !important;
+    font-size: 2.6rem;
+    text-align: left !important;
   }
 }
 .documentary-section p {
