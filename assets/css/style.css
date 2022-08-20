@@ -101,11 +101,6 @@ h1 {
 }
 
 /* <!---------------- ABOUT ----------------> */
-
-.about-section {
-  position: relative;
-}
-
 @media (max-width: 500px) {
   .about-section p {
     font-size: 0.8rem;
