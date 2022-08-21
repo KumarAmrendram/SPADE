@@ -194,7 +194,7 @@ h1 {
 /*Fonts*/
 /*Custom Properties*/
 :root {
-  --book-bg-color: #25344e;
+  --book-bg-color: #bda372;
   --book-text-color: white;
   --book-title-color: #9c7c5c;
   --spine-border-color: #162031;
@@ -246,19 +246,16 @@ h1 {
   --title-text-shadow: 0.3rem 0.3rem #9ebbb4;
 }
 
-.darkMode {
-  --bg-color: #23272a;
-  --button-bg-color: #23272a;
-  --button-text-color: white;
-  --button-shadow-color: #9c7c5c;
-}
-
 .wrapper {
   display: grid;
   justify-items: center;
   align-content: center;
 }
 
+.author {
+  color: #9c7c5c;
+  text-align: center;
+}
 .book-container {
   margin: 0;
   display: grid;
@@ -269,12 +266,12 @@ h1 {
 
 .book {
   justify-self: center;
-  width: 30rem;
-  min-width: 20rem; /*re-evaluate*/
-  height: 40rem;
-  min-height: 20rem;
   background-color: #f8f8f8;
-  /* background-image: url('../img/Arthmanthan.jpg'); */
+  background-image: url("../img/Arthmanthan.jpg");
+  background-size: cover;
+  background-attachment:scroll;
+  margin-bottom: 1em !important;
+  padding-bottom: 1em !important;
   display: var(--book-display); /*to make it responsive*/
   align-items: center;
   justify-content: center;
@@ -322,7 +319,7 @@ h1 {
   font-family: "Roboto", sans-serif;
   text-align: justify;
   font-size: 0.8rem !important;
-  letter-spacing: 0.1rem;   
+  letter-spacing: 0.1rem;
   line-height: 1.5;
   word-spacing: 0px;
   word-break: none;
@@ -551,7 +548,7 @@ h1 {
   /*For laptop heights, where the spin would still be included*/
   .spine {
     width: calc(4rem / 1.4);
-        height: calc(40rem / 1.4);
+    height: calc(40rem / 1.4);
     border-right: var(--spine-border-length) solid var(--spine-border-color);
     border-left: var(--spine-border-length) solid var(--spine-border-color);
   }
@@ -635,7 +632,7 @@ h1 {
   text-shadow: 1px 1px 2px #172026, 0 0 1em #172026, 0 0 0.2em black;
 }
 
-@media (max-width:770px){
+@media (max-width: 770px) {
   .arthmanthan-desktop .thumbnail {
     display: flex;
     justify-content: center;
@@ -645,27 +642,21 @@ h1 {
   }
 }
 
-
-.text-justify { 
+.text-justify {
   text-align: justify;
 }
-.book-heading { 
+.book-heading {
   font-weight: bold;
 }
-.wiki-cite { 
+.wiki-cite {
   margin: 1px;
   font-size: 12px;
   float: right;
 }
 
-
-
-
 .arthmanthan-desktop .thumbnail img {
   width: 200px;
 }
-
-
 
 @media (min-width: 560px) {
   .wrapper {
@@ -678,7 +669,3 @@ h1 {
     display: none;
   }
 }
-
-
-
-
