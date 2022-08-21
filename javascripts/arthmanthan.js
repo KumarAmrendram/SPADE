@@ -1,6 +1,6 @@
 const blurbButton = document.querySelector(".blurbButton");
 const altCoverButton = document.querySelector(".altCoverButton");
-const container = document.querySelector(".container");
+const container = document.querySelector(".book-container");
 const lastWord =  document.querySelector(".lastWord");
 
 console.log(blurbButton);
@@ -22,25 +22,26 @@ blurbButton.addEventListener('click', () => {
 
 
 
-altCoverButton.addEventListener('click', () => {
-  if (container.classList.contains("alternative")) {
-    container.classList.remove("alternative");
-    altCoverButton.textContent = originalBtnValue;
+// altCoverButton.addEventListener('click', () => {
+//   if (container.classList.contains("alternative")) {
+//     container.classList.remove("alternative");
+//     altCoverButton.textContent = originalBtnValue;
     
-    lastWord.style.textShadow = "var(--title-text-shadow)";
-  }
+//     lastWord.style.textShadow = "var(--title-text-shadow)";
+//   }
   
-  else {
-    container.classList.add("alternative");
-    altCoverButton.textContent = "View Original";
+//   else {
+//     container.classList.add("alternative");
+//     altCoverButton.textContent = "View Original";
     
     
-    if(container.classList.contains("blurb")) { 
-      lastWord.style.textShadow = "unset"; //bug as it never shows the text shadow again - Fixed!
-    }
-  }
-});
+//     if(container.classList.contains("blurb")) { 
+//       lastWord.style.textShadow = "unset"; 
+//     }
+//   }
+// });
 
+//bug as it never shows the text shadow again - Fixed!
 //add transition and look into adding the borders - Done!
 //add a transition for the button changing -Doesn't work properly
 //change grid columns with the blurb class, and change the display of the back cover and spine with another property - Done!

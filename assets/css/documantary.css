@@ -116,6 +116,11 @@ ul {
   border-radius: 10px;
 }
 
+.slider_content .container .row .slide-text p {
+  font-weight: 400;
+}
+
+
 @media (min-width: 968px) {
   .slider_content .container .row .slide-text {
     max-width: 265px;
@@ -125,5 +130,5 @@ ul {
 .slider_content .container .row .slide-text h3 {
   text-align: center;
   font-size: 1.7rem;
-  font-weight: 600;
+  font-weight: 500;
 }
