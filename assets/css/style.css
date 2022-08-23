@@ -185,6 +185,7 @@ h1 {
 
 /* <!---------------- FOOTER ----------------> */
 
+
 /* <!---------------- Arthmanthan ----------------> */
 
 .arthmanthan-section {
@@ -610,6 +611,15 @@ h1 {
 }
 
 /* ARTHMANTHAN DESKTOP */
+
+.arthmanthan-desktop {
+  background-image: url('../img/landing-page/arthmanthan-bg.jpg');
+  background-repeat: no-repeat;
+  background-position: left;
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+
+}
 
 .arthmanthan-desktop a {
   color: black;
