@@ -268,7 +268,8 @@ h1 {
   }
 }
 #timeline .demo-card .body p {
-  font-size: 14px;
+  font-size: 15px;
+  font-weight: 500;
   line-height: 18px;
   margin-bottom: 15px;
 }
