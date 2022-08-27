@@ -247,9 +247,6 @@ h1 {
   }
 }
 
-.d-hide {
-  display: none !important;
-}
 #timeline .demo-card .head h2 span {
   display: block;
   font-size: 0.6rem;
