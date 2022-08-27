@@ -93,6 +93,18 @@ button, input[type="submit"], input[type="reset"] {
 	margin-top: 100px !important;
 }
 
+.hide {
+  display: none;
+}
+
+.description button{
+  cursor: pointer;
+  padding: 10px;
+  color: #ffffff;
+  border: 1px solid #fff;
+  cursor: pointer;
+}
+
 /* ------------------------BLOGS CARD-------------------------- */
 /*PEN STYLES*/
 @import url(https://fonts.googleapis.com/css?family=Roboto:300,400,600);
